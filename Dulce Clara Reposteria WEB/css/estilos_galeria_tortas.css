@@ -1,0 +1,316 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+/************************* ESTILO TORTAS "INFANTILES" *************************/
+#container_principal_tortasINFANTILES{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background: rgb(227,70,77);
+    justify-content: center;
+    padding: 250px;
+}
+
+
+#container_titulos_galeriaINFANTILES{
+    margin-top: -9%;
+    width: 100%;
+    height: 8%;
+}
+
+.titulo_tortasINFANTILES{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+    font-size: 650%;
+    color: black;
+    text-shadow: 3px 0px 3px white,
+    0px -3px 3px white;
+}
+
+#container_torta1, #container_torta2, #container_torta3, #container_torta4, #container_torta5, #container_torta6, #container_torta7{
+    width: 28vh;
+    height: 26vh;
+    padding: 1em;
+    margin: 4.5em;
+}
+
+#container_torta1:hover, #container_torta2:hover, #container_torta3:hover, #container_torta4:hover, #container_torta5:hover, #container_torta6:hover, #container_torta7:hover{
+    transform: scale(1.5);
+}
+
+.estilo_imagen1, .estilo_imagen2, .estilo_imagen3, 
+.estilo_imagen4, .estilo_imagen5, .estilo_imagen6, 
+.estilo_imagen7{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 4px 5px 4px rgb(46, 45, 46);
+}
+
+.titulo_torta1, .titulo_torta2, .titulo_torta3, .titulo_torta4, .titulo_torta5, .titulo_torta6, .titulo_torta7{
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    color: white;
+    font-size: xx-large;
+    text-shadow: 1.5px 0px 0px black,
+    0px -1.5px 0px black;
+}
+
+#container_logo_home{
+    width: 2.5em;
+    margin: 7%;
+    margin-top: -11%;
+}
+
+.estilo_botonHOME{
+    width: 100%;
+    height: 100%;
+}
+
+.estilo_botonHOME:hover{
+    transform: scale(1.2);
+}
+
+/*************************************************************/
+
+/*////////////////// ESTILO TORTAS "FUTBOL" //////////////////*/
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+#container_principal_tortasFUTBOL{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background: white;
+    justify-content: center;
+    padding: 250px;
+}
+
+#container_titulos_galeriaFUTBOL{
+    margin-top: -9%;
+    width: 100%;
+    height: 8%;
+}
+
+.titulo_tortasFUTBOL{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+    font-size: 650%;
+    color: black;
+    text-shadow: 3px 0px 3px rgb(227,70,77),
+    0px -3px 3px white;
+}
+
+#container_torta1_futbol, #container_torta2_futbol, #container_torta3_futbol, #container_torta4_futbol, #container_torta5_futbol, #container_torta6_futbol{
+    width: 28vh;
+    height: 26vh;
+    padding: 1em;
+    margin: 4.5em;
+}
+
+#container_torta1_futbol:hover, #container_torta2_futbol:hover, #container_torta3_futbol:hover, #container_torta4_futbol:hover, #container_torta5_futbol:hover, #container_torta6_futbol:hover{
+    transform: scale(1.5);
+}
+
+.estilo_imagen1_river1, .estilo_imagen2_river2, 
+.estilo_imagen3_river3, .estilo_imagen4_boca1, 
+.estilo_imagen5_boca2, .estilo_imagen6_olimpia{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 450px;
+    box-shadow: 4px 5px 4px rgb(46, 45, 46);
+}
+
+.titulo_torta1_futbol, .titulo_torta2_futbol, 
+.titulo_torta3_futbol, .titulo_torta4_futbol, 
+.titulo_torta5_futbol, .titulo_torta6_futbol{
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    color: black;
+    font-size: xx-large;
+}
+
+#container_logo_home{
+    width: 3em;
+    margin: 7%;
+    margin-top: -13%;
+}
+
+.estilo_botonHOME{
+    width: 100%;
+    height: 100%;
+}
+
+.estilo_botonHOME:hover{
+    transform: scale(1.2);
+}
+/*///////////////////////////////////////////////////////////*/
+
+/*------------------- ESTILO TORTAS "EVENTOS"-----------------*/
+#container_principal_tortasEVENTOS{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background: linear-gradient(to bottom, rgba(227,72,72,1) 0%, rgba(227,105,105,1) 15%, rgba(235,141,141,1) 30%, rgba(230,152,152,1) 45%, rgba(219,175,175,1) 60%, rgba(214,192,192,1) 75%, rgba(227,216,216,1) 85%, rgba(227,240,240) 90%, rgba(227,241,241,1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e34848', endColorstr='#e3dfdf', GradientType=0 );
+
+    justify-content: center;
+    padding: 250px;
+}
+
+#container_titulos_galeriaEVENTOS{
+    margin-top: -9%;
+    width: 100%;
+    height: 8%;
+}
+
+.titulo_tortasEVENTOS{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+    font-size: 650%;
+    color: black;
+    text-shadow: 3px 0px 3px white,
+    0px -3px 3px white;
+}
+
+#container_torta1_eventos, #container_torta2_eventos, #container_torta3_eventos, #container_torta4_eventos, #container_torta5_eventos, #container_torta6_eventos{
+    width: 28vh;
+    height: 26vh;
+    padding: 1em;
+    margin: 4.5em;
+}
+
+#container_torta1_eventos:hover, #container_torta2_eventos:hover, #container_torta3_eventos:hover, #container_torta4_eventos:hover, #container_torta5_eventos:hover, 
+#container_torta6_eventos:hover{
+    transform: scale(1.5);
+}
+
+.estilo_imagen1_eventos, .estilo_imagen2_eventos, 
+.estilo_imagen3_eventos, .estilo_imagen4_eventos, 
+.estilo_imagen5_eventos, .estilo_imagen6_eventos{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 4px 5px 4px rgb(46, 45, 46);
+}
+
+.titulo_torta1_eventos, .titulo_torta2_eventos, 
+.titulo_torta3_eventos, .titulo_torta4_eventos, 
+.titulo_torta5_eventos, .titulo_torta6_eventos{
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    color: black;
+    font-size: xx-large;
+}
+
+#container_logo_home{
+    width: 2.5em;
+    margin: 7%;
+    margin-top: -13%;
+}
+
+.estilo_botonHOME{
+    width: 100%;
+    height: 100%;
+}
+
+.estilo_botonHOME:hover{
+    transform: scale(1.2);
+}
+/*------------------------------------------------------------*/
+
+/*//////////////// ESTILO TORTAS "VARIEDAD" //////////////////*/
+#container_principal_tortasVARIEDAD{
+    height: 100%;
+    display: flex; 
+    align-items: center;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    background: rgb(227,70,77);
+    justify-content: center;
+    padding: 250px;
+}
+
+#container_titulos_galeriaVARIEDAD{
+    margin-top: -9%;
+    width: 100%;
+    height: 8%;
+}
+
+.titulo_tortasVARIEDAD{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    margin: auto;
+    padding-top: 0px;
+    font-size: 650%;
+    color: black;
+    text-shadow: 3px 0px 3px white,
+    0px -3px 3px white;
+}
+
+#container_torta1_variedad, #container_torta2_variedad, #container_torta3_variedad, #container_torta4_variedad, #container_torta5_variedad, #container_torta6_variedad{
+    width: 28vh;
+    height: 26vh;
+    padding: 1em;
+    margin: 4.5em;
+}
+
+#container_torta1_variedad:hover, #container_torta2_variedad:hover, #container_torta3_variedad:hover, #container_torta4_variedad:hover, #container_torta5_variedad:hover, 
+#container_torta6_variedad:hover{
+    transform: scale(1.5);
+}
+
+.estilo_imagen1_variedad, .estilo_imagen2_variedad, 
+.estilo_imagen3_variedad, .estilo_imagen4_variedad, 
+.estilo_imagen5_variedad, .estilo_imagen6_variedad{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    box-shadow: 4px 5px 4px rgb(46, 45, 46);
+}
+
+.titulo_torta1_variedad, .titulo_torta2_variedad, 
+.titulo_torta3_variedad, .titulo_torta4_variedad, 
+.titulo_torta5_variedad, .titulo_torta6_variedad{
+    text-align: center;
+    font-family: 'Redressed', cursive;
+    color: black;
+    font-size: xx-large;
+}
+
+#container_logo_home{
+    width: 2.5em;
+    margin: 7%;
+    margin-top: -13%;
+}
+
+.estilo_botonHOME{
+    width: 100%;
+    height: 100%;
+}
+
+.estilo_botonHOME:hover{
+    transform: scale(1.2);
+}
+/*///////////////////////////////////////////////////////////*/
+
+

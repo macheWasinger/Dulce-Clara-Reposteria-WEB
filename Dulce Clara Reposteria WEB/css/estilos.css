@@ -1,0 +1,664 @@
+* {
+    margin: 0;
+    padding: 0px;
+}
+
+#container_logo{
+    width: 33.5vh;
+    height: 17vh;
+    display: block;
+    margin: auto;
+    border-top-left-radius: 25px;
+}
+
+body #estilo_logoDC{
+    width: 100%;
+    height: 100%;
+}
+
+
+body #estilo_logoDC:hover{
+    transform: scale(1.1);
+}
+
+header {
+    font-family: 'Cookie', cursive;
+    height: 46px;
+    margin-top: 10px;
+    margin: 0;
+    padding: 0px;
+    text-align: center;
+    font-size: 4vh;
+    font-weight: bold;
+    text-shadow: 3px  0px 0px black,
+    0px -3px 0px black;
+}
+
+header a:hover{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    padding-right: 12px;
+    border-bottom: 1px solid white;
+}
+
+ul li a{
+    color: white;
+    text-decoration: none; /* QUITA EL SUBRAYADO DEL TEXTO */
+    opacity: 100%;
+}
+
+ul li{
+    display: inline-block;
+}
+
+#estilo_nav{
+    margin: auto;
+    background: linear-gradient(to bottom, rgba(227,72,72,1) 50%, rgba(227,83,83,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e34848', endColorstr='#e35454', GradientType=0 );
+}
+
+/******************************* ESTILO SECCION "INICIO" ***********************************/
+
+#container_principal_seccionINICIO{
+    padding-top: 80px;
+    width: 100%;
+    height: 120vh;
+    background: linear-gradient(to bottom, rgba(227,72,72,1) 0%, rgba(227,105,105,1) 15%, rgba(235,141,141,1) 30%, rgba(230,152,152,1) 45%, rgba(219,175,175,1) 60%, rgba(214,192,192,1) 75%, rgba(227,216,216,1) 85%, rgba(227,240,240) 90%, rgba(227,241,241,1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e34848', endColorstr='#e3dfdf', GradientType=0 );
+}
+
+span{
+    padding: 22px; /* Tamaño del espaciado entre cada seccion. */
+}
+
+
+#container_secundario_seccionINICIO{
+    width: 54%;
+    height: 83vh;
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.subtitulo_inicio{
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 5.7vh;
+    font-weight: bold;
+    color: rgb(227,77,77);
+    text-shadow: 1.4px 0px 0px black,
+    0px -1.4px 0px black;
+
+    margin-top: -24.5vh;
+}
+
+.texto_presentacion_inicio{
+    width: 85%;
+    margin-left: 7.56%;
+    text-align: center;
+    font-family: 'Cookie', cursive;
+    font-size: 3.3vh;
+    font-weight: bold;
+    color: #9bced3;
+    text-shadow: 1.5px 0px 0px black,
+    0px 1.5px 0px black,
+    -1.5px 0px 0px black,
+    0px -1.5px 0px black;
+}
+
+.estilo_fondoBlanco{
+    width: 100%;
+    height: 100%;
+}
+
+.slide-1, .slide-2, .slide-3, .slide-4{
+    display: block;
+    position: absolute;
+    width: 49.8%;
+    height: 53vh;
+    margin-left: 2%;
+    margin-top: -77.5vh;
+}
+
+.slide-1{
+    animation: fade1 14s infinite;
+    animation-duration: 20s;
+}
+
+.slide-2{
+    animation: fade2 14s infinite;
+    animation-duration: 20s; 
+}
+
+.slide-3{
+    animation: fade3 14s infinite;
+    animation-duration: 20s;  
+}
+
+.slide-4{
+    animation: fade4 14s infinite;
+    animation-duration: 20s;
+}
+
+
+@keyframes fade1{
+    0%{opacity: 1}
+    25%{opacity: 0}
+    50%{opacity: 0}
+    75%{opacity: 0}
+    100%{opacity: 1}
+}
+
+@keyframes fade2{
+    0%{opacity: 0}
+    25%{opacity: 1}
+    50%{opacity: 0}
+    75%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes fade3{
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 1}
+    75%{opacity: 0}
+    100%{opacity: 0}
+}
+
+@keyframes fade4{
+    0%{opacity: 0}
+    25%{opacity: 0}
+    50%{opacity: 0}
+    75%{opacity: 1}
+    100%{opacity: 0}
+}
+
+/********************************************************************************/
+
+/*//////////////////////////////// ESTILO SECCION "TORTAS" ////////////////////////////////*/
+
+#container_principal_seccionTORTAS{
+    height: 100%;
+
+    display: flex; 
+    /* Para utilizar las propiedades de flexbox es necesario crear un contenedor padre que configure las características de los elementos hijos. A este contenedor padre debemos declararle la propiedad “display:flex“. */
+
+    align-items: center;
+
+    flex-direction: row; 
+    /* La propiedad align-items actúa sobre el eje vertical. Para utilizar esta propiedad primero se debe definir la propiedad flex-direction: row. */
+
+    flex-wrap: wrap;
+    /* los elementos pasan a la siguiente fila y conservan su anchura. */
+
+    background: rgba(227,241,241,1);
+    
+    justify-content: center;
+    /* justify-content es la que define la justificación horizontal de los elementos hijos de un contenedor flexible.
+    "center": centra los elementos en el contenedor */
+
+    padding: 25vh; /* El padding sirve para que haya un espacio (250px) entre el comienzo del contenedor "container_principal_seccionTORTAS" y su contenedor interno "container_titulos_galeriaTORTAS". */
+}
+
+#container_titulos_galeriaTORTAS{
+    margin-top: -15vh;
+    width: 77%;
+    height: 8%;
+}
+
+.titulo_seccionTORTAS{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    margin: auto;
+
+    font-size: 9vh;
+    color: rgb(56, 56, 56);
+    text-shadow: 2px 0px 0px rgb(227,70,70),
+    0px -2px 0px rgb(227,70,70);
+}
+
+.eslogan_seccionTORTA{
+    background: rgb(190, 190, 190);
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    margin: auto;
+    font-size: 9vh;
+    font-weight: 600;
+    color: rgb(227,70,77);
+    text-shadow: 1.5px 0px 0px black,
+    0px -1.5px 0px black;
+    letter-spacing: -5px;
+    border: 1px solid rgb(99, 99, 99);
+    box-shadow: 2px 4px 7px 2px rgb(151, 145, 145);
+}
+
+/*---------- ESTILOS LOGO INFANTIL -----------*/
+#container_logo_infantil {
+    width: 18.2vh;
+    padding: 1em;
+    margin: 4.5em;
+}
+
+#container_logo_infantil:hover{
+    transform: scale(1.2);
+}
+
+.estilo_texto_infantil{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 0.5px 0px 0px rgb(227,72,72),
+    0px 0.5px 0px rgb(227,72,72),
+    -0.5px 0px 0px rgb(227,72,72),
+    0px -0.5px 0px rgb(227,72,72);
+}
+
+.estilo_imagen_logoINFANTIL{
+    width: 100%;
+}
+/*----------------------------------------------*/
+
+/*//////////// ESTILOS LOGO FUTBOL /////////////*/
+#container_logo_futbol{
+    width: 18vh;
+    padding: 1em;
+    margin: 4.5em;
+}
+
+#container_logo_futbol:hover{
+    transform: scale(1.2);
+}
+
+.estilo_texto_futbol{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 0.5px 0px 0px rgb(227,72,72),
+    0px 0.5px 0px rgb(227,72,72),
+    -0.5px 0px 0px rgb(227,72,72),
+    0px -0.5px 0px rgb(227,72,72);
+}
+
+.estilo_imagen_logoFUTBOL{
+    width: 100%;
+}
+/*//////////////////////////////////////////////*/
+
+/************* ESTILOS LOGO EVENTOS ************/
+#container_logo_eventos{
+    width: 18vh;
+    padding: 1em;
+    margin: 4.5em;
+}
+
+#container_logo_eventos:hover{
+    transform: scale(1.2);
+}
+
+.estilo_texto_eventos{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 0.5px 0px 0px rgb(227,72,72),
+    0px 0.5px 0px rgb(227,72,72),
+    -0.5px 0px 0px rgb(227,72,72),
+    0px -0.5px 0px rgb(227,72,72);
+}
+
+.estilo_imagen_logoEVENTOS{
+    width: 100%;
+}
+/************************************************/
+
+/*------------ ESTILOS LOGO VARIEDAD ------------*/
+#container_logo_variedad{
+    width: 20vh;
+    padding: 1em;
+    margin: 4.5em;
+}
+
+#container_logo_variedad:hover{
+    transform: scale(1.2);
+}
+
+.estilo_texto_variedad{
+    font-family: 'Redressed', cursive;
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    text-shadow: 0.5px 0px 0px rgb(227,72,72),
+    0px 0.5px 0px rgb(227,72,72),
+    -0.5px 0px 0px rgb(227,72,72),
+    0px -0.5px 0px rgb(227,72,72);
+}
+
+.estilo_imagen_logoVARIEDAD{
+    width: 100%;
+}
+/************************************************/
+
+/*/////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*------------------------------- ESTILO SECCION "NOSOTROS" -------------------------------*/
+#container_principal_seccionNOSOTROS{
+    width: 100%;
+    height: 100vh;
+    background: rgba(227,241,241,1);
+}
+
+.titulo_seccionNOSOTROS{
+    background: rgb(56,56,56);
+    text-align: center;
+    font-family: 'Cormorant Upright', cursive;
+    font-size: 7vh;
+    color: rgb(227, 72, 72);
+    text-shadow: 1.5px 0px 0px black,
+    0px 1.5px 0px black,
+    -1.5px 0px 0px black,
+    0px -1.5px 0px black;
+}
+
+#container_subtitulo_seccionNOSOTROS{
+    width: 54%;
+    display: block;
+    margin: auto;
+    border-top: 1px solid black;
+}
+
+
+.subtitulo_seccionNOSOTROS{
+    background: rgba(56,56,56,1);
+    color: white;
+    font-family: 'Cormorant Upright', cursive;
+    font-size: 2.7vw;
+    text-align: center;
+    text-shadow: 1.8px 0px 0px rgb(227,72,72),
+    0px -1.8px 0px rgb(227,72,72);
+    margin-top: -2%;
+}
+
+.texto_descripcion_seccionNOSOTROS{
+    background: rgb(227, 72, 72);
+    
+    text-align: center;
+    color: white;
+    text-shadow: 1px 0px 0px rgb(56,56,56),
+    0px 1px 0px rgb(56,56,56),
+    -1px 0px 0px rgb(56,56,56),
+    0px -1px 0px rgb(56,56,56);
+    font-family: 'Cormorant Upright', cursive;
+    font-size: 1.5vw;
+
+    padding-top: 36px;
+    display: block;
+    margin-left: 62%;
+    margin-top: -70.7%;
+    box-shadow: 0px 0px 0px 0px black;
+    border-bottom-right-radius: 20px;
+}
+
+.container_slider_img_nosotros{
+    margin: auto; /* Ubica las imagenes en el centro. */
+    margin-left: 0%;
+    margin-top: -1%;
+    overflow: hidden; /* Sirve para ocultar a las imagenes que estan fuera del centro de la pantalla. */
+                     /* Así la primera imagen quedaria en el centro y daria el efecto de que cada imagen pasa por el centro al cambiarse. */
+    width: 32.5vw;
+    height: 38vw;
+    border-top: 1px solid black;
+    box-shadow: 4px 5px 4px black;
+    border-bottom: 2px solid black;
+    border-bottom-left-radius: 20px;
+}
+
+.container_slider_img_nosotros ul{
+    display: flex; /* Ubica a cada imagen al lado de la otra en forma horizontal. */
+    padding: 0; /* Sirve para eliminar el relleno "PADDING" que viene por defecto. */
+    width: 400%; /* De ancho pongo 400% porque son 4 imagenes. El ancho es dependiendo la cantidad de imagenes. */
+    animation: cambio_img_nosotros 15s infinite alternate; /* Sirve para que las imagenes se cambien cada 3 segundos infinitas veces. */
+}
+
+.container_slider_img_nosotros ul:hover{
+    animation-play-state: paused;
+    cursor: pointer;
+}
+
+.container_slider_img_nosotros li{
+    width: 100%; /* Sirve para ajustar el ancho de cada imagen y que queden una al lado de la otra. */
+    list-style: none; /* Elimina los iconos de cada item de la lista. En este caso, de la lista de imagenes. */
+}
+
+.container_slider_img_nosotros img {
+    width: 32.5vw; /* Sirve para ajustar el ancho de cada imagen y que queden una al lado de la otra. */
+    height: 38vw; /* Altura de cada imagen. */
+    margin-top: -2px;
+}
+
+@keyframes cambio_img_nosotros{
+    0%{margin-left: 0%;}
+    21%{margin-left: 0%;}
+
+    26%{margin-left: -100%;}
+    47%{margin-left: -100%;}
+
+    52%{margin-left: -200%;}
+    73%{margin-left: -200%;}
+
+    78%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}
+
+
+
+/****************************** ESTILO SECCION "CONTACTANOS" *******************************/
+#container_principal_seccionCONTACTANOS{
+    width: 100%;
+    height: 30vh;
+    background: rgb(56, 56, 56);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#container_redes {
+    width: 22vh;
+    height: 15vh;
+    background: rgb(56, 56, 56);
+    border-bottom: 2px solid rgb(99, 99, 99);
+    border-top: 1.5px solid rgb(99, 99, 99);
+    border-left: 1.5px solid rgb(99, 99, 99);
+    border-right: 1.5px solid rgb(99, 99, 99);
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -3%;
+}
+
+.estilo_titulo_contactanosREDES{
+    height: 5vh;
+    background: rgb(56, 56, 56);
+    font-family: 'Cookie';
+    text-align: center;
+    margin: auto;
+    font-size: 4.5vh;
+    color: white;
+    text-shadow: 1.5px 0px 0px black,
+    0px -1.5px 0px black;
+    border-top: 1px solid rgb(99, 99, 99);
+    border-bottom: 1px solid rgb(99, 99, 99);
+}
+
+/*---------- ESTILOS LOGO "FACEBOOK"-----------*/
+#container_logo_facebook {
+    width: 5vh;
+    margin-top:0%;
+    border: 1px solid rgb(99, 99, 99);
+    border-radius: 450px;
+}
+
+#container_logo_facebook:hover{
+    border-radius: 450px;
+    background: #1d68c5;
+}
+
+.estilo_imagen_logoFACEBOOK{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+/*----------------------------------------------*/
+
+/************* ESTILOS LOGO "TWITTER" ***********/
+#container_logo_twitter {
+    width: 4.95vh;
+    margin-top: 0%;
+    border: 1px solid rgb(99, 99, 99);
+    border-radius: 450px;
+}
+
+#container_logo_twitter:hover{
+    border-radius: 450px;
+    background: #78f2f7;
+}
+
+.estilo_imagen_logoTWITTER{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+/************************************************/
+
+/*////////// ESTILOS LOGO "LINKEDIN" //////////*/
+#container_logo_linkedin{
+    width: 5vh;
+    margin-top: 0%;
+    border: 1px solid rgb(99, 99, 99);
+    border-radius: 450px;
+}
+
+#container_logo_linkedin:hover{
+    border-radius: 450px;
+    background: #0077b5;
+}
+
+.estilo_imagen_logoLINKEDIN{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+/*//////////////////////////////////////////////*/
+
+/*----------- ESTILO LOGO "WHATSAPP" -----------*/
+#container_logo_whatsapp{
+    width: 17vh;
+    border: 1px solid rgb(99, 99, 99);
+    border-radius: 700px;
+}
+
+#container_logo_whatsapp:hover{
+    background: #00bd2c;
+}
+
+.estilo_imagen_logoWHATSAPP{
+    width: 90%;
+    margin-top: 1%;
+    padding-left: 20px;
+}
+
+/*----------------------------------------------*/
+
+/*/////////////////////// Container secundario CONTACTO ///////////////////////*/
+#Container_secundario_contactanos{
+    width: 32vh;
+    height: 17.2vh;
+    background: rgb(56, 56, 56);
+    margin-left: 2%;
+    margin-top: -3%;
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.titulo_contacto{
+    text-align: center;
+    font-family: 'Cookie';
+    font-weight: bold;
+    font-size: 2.7vh;
+    margin-top: -9vh;
+    color: white;
+}
+
+.titulo_1{
+    text-align: start;
+    font-family: 'sans-serif';
+    font-size: 1.3vh;
+    margin-top: 9vh;
+    color: white;
+}
+
+.titulo_2{
+    text-align: start;
+    font-family: 'sans-serif';
+    font-size: 1.3vh;
+    margin-top: 3vh;
+    color: white;
+}
+
+.texto_1, .texto_2{
+    text-align: start;
+    color: white;
+}
+/*/////////////////////////////////////////////////////////////////////*/
+
+/*-------------------- Container tercero CONTACTO ---------------------*/
+#Container_tercero_contactanos{
+    width: 20vh;
+    height: 20vh;
+    background: rgb(56, 56, 56);
+    margin-left: 2%;
+    margin-top: -3%;
+    border: 1px solid rgb(99, 99, 99);
+}
+
+.titulo_3{
+    text-align: center;
+    font-family: 'Cookie';
+    font-size: 2.4vh;
+    margin-top: 0.15vh;
+    color: white;
+}
+
+.titulo_contacto_3{
+    text-align: center;
+    font-family: 'Cookie';
+    font-size: 2.4vh;
+    margin-top: 0.15vh;
+    color: white;
+}
+
+
+.dias_1, .dias_2, .dias_3{
+    text-align: center;
+    font-family: 'sans-serif';
+    font-size: 1.25vh;
+    margin-top: 0.3vh;
+    color: white;
+}
+
+.horario_1, .horario_2, .horario_3{
+    text-align: center;
+    font-size: 2vh;
+    font-weight: bold;
+    font-family: 'Verdana', cursive;
+    color: white;
+}
+/**--------------------------------------------------------------------------/
+
+
+/****************************************************************************/
