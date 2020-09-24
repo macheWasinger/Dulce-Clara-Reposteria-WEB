@@ -5,5 +5,5 @@ PASOS PARA EJECUTARLO:
 
 1. Clonar repositorio.
  
-2. Ejecutar el archivo "index.html".
+2. Ejecutar el archivo "index.html" solamente haciendo doble clic.
      
